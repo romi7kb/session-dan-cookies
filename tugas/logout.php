@@ -6,5 +6,5 @@ echo "      <script>
 			alert('Berhasil Log Out!');
 			document.location.href = 'login.php';
 			</script>
-	  ";
+    ";
 ?>
