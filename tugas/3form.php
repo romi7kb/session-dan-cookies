@@ -18,7 +18,8 @@ function luas_persegi($si){
     <title>Luas persegi</title>
 </head>
 <body>
-<a href="1form.php">halaman1</a>|<a href="2form.php">halaman2</a>|
+<nav><a href="1form.php">halaman1</a>|<a href="2form.php">halaman2</a>|</nav>
+
     <fieldset>
     <legend>Luas Persegi</legend>
     <form action="" method="get">

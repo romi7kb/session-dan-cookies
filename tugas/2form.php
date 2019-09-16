@@ -21,7 +21,8 @@ function t_b($bb,$tb){
     <title>Pendaftaran TNI</title>
 </head>
 <body>
-<a href="1form.php">halaman1</a>|<a href="3form.php">halaman3</a>|
+<nav><a href="1form.php">halaman1</a>|<a href="3form.php">halaman3</a>|</nav>
+
     <fieldset>
     <legend>Pendaftaran TNI</legend>
     <form action="" method="get">

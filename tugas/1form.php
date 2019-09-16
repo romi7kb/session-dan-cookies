@@ -14,7 +14,8 @@ if (!isset($_SESSION['user'])) {
     <title>Pengolahan Form</title>
 </head>
 <body>
-<a href="2form.php">halaman2</a>|<a href="3form.php">halaman3</a>|
+<nav><a href="2form.php">halaman2</a>|<a href="3form.php">halaman3</a>|</nav>
+
     <form action="" method="POST">
     <label>Nama :</label>
     <input type="text" name="nama" require><br>
