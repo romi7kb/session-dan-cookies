@@ -1,8 +1,6 @@
 <?php
 /*************************************************************
-Halaman ini merupakan contoh halaman pemeriksaan session. Peme-
-riksaan session biasanya dilakukan jika suatu halaman memiliki
-akses terbatas. Misalnya harus login terlebih dahulu.
+Halaman ini merupakan contoh halaman pemeriksaan session. Pemeriksaan session biasanya dilakukan jika suatu halaman memiliki akses terbatas. Misalnya harus login terlebih dahulu.
 **************************************************************/
 session_start();
 //pemeriksaan session

@@ -1,10 +1,7 @@
 <?php
 /****************************************************
 Nama file : session01.php
-Halaman ini merupakan halaman contoh penciptaan session.
-Perintah session_start() harus ditaruh di perintah pertama
-tanpa spasi di depannya. Perintah session_start() harus ada
-pada setiap halaman yang berhubungan dengan session
+Halaman ini merupakan halaman contoh penciptaan session. Perintah session_start() harus ditaruh di perintah pertama tanpa spasi di depannya. Perintah session_start() harus ada pada setiap halaman yang berhubungan dengan session
 *****************************************************/
 session_start();
 if (isset ($_POST['Login'])) {
@@ -19,6 +16,8 @@ echo "<h1>Anda berhasil LOGIN</h1>";
 echo "<h2>Klik <a href='session02.php'>di sini
 (session02.php)</a>
 untuk menuju ke halaman pemeriksaan session";
+}else {
+    die("Username dan pass tidak sesuai");
 }
 } else {
 ?>
